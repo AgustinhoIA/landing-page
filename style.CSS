@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, "comic-sans";
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #FFF;
+    padding: 15px 0px 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.top-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: auto;
+}
+
+.header .logo,
+.header .link {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-information {
+    display: flex;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.web-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.web-description .info {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+
+.web-description .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0;
+}
+
+.welcome-information .sign-up {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+.central-img {
+    background-color: #c8c6c6;
+    background-size: 100%;
+    min-width : 450px;
+    min-height: 200px;
+    align-self: center;
+    margin-left: 20px;
+}
+
+/* end of header sectiom*/
+/* start of centeral information section*/
+
+.central-information {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.central-information h1 {
+    font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: gray;
+    font-weight: 600;
+    margin: 40px;
+}
+
+.frame {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    background: #FFF;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.card {
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.card .text {
+    max-width: 150px;
+}
+
+.frame img {
+    width: 100%;
+    height: 100%;
+    align-self: centerC;
+}
+
+/* end of centeral information section*/
+/* start go quote section*/
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.quote.container {
+    width: 750px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.quote.content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    align-self: center;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.quote p{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.quote.person {
+    align-self: flex-start;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* end go quote section*/
+/* start of call to action section*/
+
+.call-to-action {
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #FFF;
+}
+
+.call-to-action .container {
+    box-sizing: border-box;
+    max-width: 900px;
+    max-height: 200px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.call-to-action .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.call-to-action .content {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.buttom-border {
+    height: 20px;
+    width: 100px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+    align-self: center;
+}
+
+.buttom-border a {
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+/* end of call to action section*/
+/* start of footer section*/
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    width: 100%;
+    height: 100px;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: None;
+    color: #FFF;
+}
